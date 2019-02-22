@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginCSV" time="147" tests="2" failures="0" errors="0">
+   <testsuite name="LoginCSV" tests="2" failures="0" errors="0" time="147" timestamp="2019-01-17 14:50:19" hostname="Administrator - DESKTOP-OGOHDN0" id="Test Suites/LoginCSV">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\Example\\Reports\\LoginCSV\\20190117_145013"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\Example\\Reports\\LoginCSV\\20190117_145013\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - DESKTOP-OGOHDN0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.88.98"/>
+         <property name="sessionId" value="3707fc3d1d0767a1bff51b97c75f15d6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/INICIAR SESION/LoginCSV" classname="Test Cases/INICIAR SESION/LoginCSV" status="PASSED">
+         <system-out><![CDATA[2019-01-17 14:50:21 - [TEST_CASE][PASSED] - Test Cases/INICIAR SESION/LoginCSV: Test Cases/INICIAR SESION/LoginCSV
+
+2019-01-17 14:50:22 - [TEST_STEP][PASSED] - openBrowser("https://mario.chazki.com/#/", STOP_ON_FAILURE): Browser is opened with url: 'https://mario.chazki.com/#/'
+
+2019-01-17 14:50:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-17 14:50:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-17 14:50:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mario.chazki.com/#/'
+
+2019-01-17 14:50:34 - [TEST_STEP][PASSED] - setText(findTestObject("LoginMario/LoginPage_Chazki/input_envos_emailLogin"), Username): Text 'kalu@gmail.com' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_envos_emailLogin'
+
+2019-01-17 14:50:35 - [MESSAGE][PASSED] - Text 'kalu@gmail.com' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_envos_emailLogin'
+
+2019-01-17 14:50:35 - [TEST_STEP][PASSED] - setText(findTestObject("LoginMario/LoginPage_Chazki/input_Campo requerido_password"), Password): Text 'tutu102' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_Campo requerido_password'
+
+2019-01-17 14:50:35 - [MESSAGE][PASSED] - Text 'tutu102' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_Campo requerido_password'
+
+2019-01-17 14:50:35 - [TEST_STEP][PASSED] - click(findTestObject("LoginMario/LoginPage_Chazki/button_Ingresar")): Object: 'Object Repository/LoginMario/LoginPage_Chazki/button_Ingresar' is clicked on
+
+2019-01-17 14:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginMario/LoginPage_Chazki/button_Ingresar' is clicked on
+
+2019-01-17 14:50:35 - [TEST_STEP][PASSED] - delay(60): Delayed 60 second(s)
+
+2019-01-17 14:51:36 - [MESSAGE][PASSED] - Delayed 60 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/INICIAR SESION/LoginCSV" classname="Test Cases/INICIAR SESION/LoginCSV" status="PASSED">
+         <system-out><![CDATA[2019-01-17 14:51:36 - [TEST_CASE][PASSED] - Test Cases/INICIAR SESION/LoginCSV: Test Cases/INICIAR SESION/LoginCSV
+
+2019-01-17 14:51:36 - [TEST_STEP][PASSED] - openBrowser("https://mario.chazki.com/#/", STOP_ON_FAILURE): Browser is opened with url: 'https://mario.chazki.com/#/'
+
+2019-01-17 14:51:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-17 14:51:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-17 14:51:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mario.chazki.com/#/'
+
+2019-01-17 14:51:45 - [TEST_STEP][PASSED] - setText(findTestObject("LoginMario/LoginPage_Chazki/input_envos_emailLogin"), Username): Text 'kanu@gmail.com' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_envos_emailLogin'
+
+2019-01-17 14:51:45 - [MESSAGE][PASSED] - Text 'kanu@gmail.com' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_envos_emailLogin'
+
+2019-01-17 14:51:45 - [TEST_STEP][PASSED] - setText(findTestObject("LoginMario/LoginPage_Chazki/input_Campo requerido_password"), Password): Text 'tutu102' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_Campo requerido_password'
+
+2019-01-17 14:51:45 - [MESSAGE][PASSED] - Text 'tutu102' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_Campo requerido_password'
+
+2019-01-17 14:51:45 - [TEST_STEP][PASSED] - click(findTestObject("LoginMario/LoginPage_Chazki/button_Ingresar")): Object: 'Object Repository/LoginMario/LoginPage_Chazki/button_Ingresar' is clicked on
+
+2019-01-17 14:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginMario/LoginPage_Chazki/button_Ingresar' is clicked on
+
+2019-01-17 14:51:46 - [TEST_STEP][PASSED] - delay(60): Delayed 60 second(s)
+
+2019-01-17 14:52:46 - [MESSAGE][PASSED] - Delayed 60 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-17 14:50:19 - [TEST_SUITE][PASSED] - LoginCSV: Test Cases/INICIAR SESION/LoginCSV]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

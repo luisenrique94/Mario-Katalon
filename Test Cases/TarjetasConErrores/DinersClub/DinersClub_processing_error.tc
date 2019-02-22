@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El sistema debera de mostrar el mensaje de stolen_card</description>
+   <name>DinersClub_processing_error</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d70f7bf-dd73-4173-9899-942015a1b1e1</testCaseGuid>
+</TestCaseEntity>

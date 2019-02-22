@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El sistema debera de mostrar el mensaje de stolen_card</description>
+   <name>AmericanExpress_issuer_decline_operation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>894be97d-3fa7-4220-834a-cff7dd629bd2</testCaseGuid>
+</TestCaseEntity>

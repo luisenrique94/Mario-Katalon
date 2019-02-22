@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite3" time="233" tests="0" failures="1" errors="0">
+   <testsuite name="Test Suite3" tests="0" failures="1" errors="0" time="233" timestamp="2019-01-09 15:05:23" hostname="Administrator - DESKTOP-OGOHDN0" id="Test Suites/Test Suite3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\Example\\Reports\\Test Suite3\\20190109_150515"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\Example\\Reports\\Test Suite3\\20190109_150515\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\Katalon Studio\\Example\\Reports\\Test Suite3\\20190109_150515\\1547064554656.png"/>
+         <property name="hostName" value="Administrator - DESKTOP-OGOHDN0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.88.98"/>
+         <property name="sessionId" value="3b0e2170b859ce7d3482f8c0dd73f46b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Express/Express1-4/Express1-4" classname="Test Cases/Express/Express1-4/Express1-4" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Express/Express1-4/Express1-4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot (Root cause: java.io.IOException: Destination 'C:\Users\Administrator\Desktop\CAPTURA EXPRESS' exists but is a directory)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$5.call(Unknown Source)
+	at Express1-4.run(Express1-4:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547064315215.run(TempTestSuite1547064315215.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-09 15:05:24 - [TEST_CASE][FAILED] - Test Cases/Express/Express1-4/Express1-4: Test Cases/Express/Express1-4/Express1-4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot (Root cause: java.io.IOException: Destination 'C:\Users\Administrator\Desktop\CAPTURA EXPRESS' exists but is a directory)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$5.call(Unknown Source)
+	at Express1-4.run(Express1-4:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547064315215.run(TempTestSuite1547064315215.groovy:36)
+
+
+2019-01-09 15:05:25 - [TEST_STEP][PASSED] - openBrowser("https://mario.chazki.com/#/", STOP_ON_FAILURE): Browser is opened with url: 'https://mario.chazki.com/#/'
+
+2019-01-09 15:05:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 15:05:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-09 15:05:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mario.chazki.com/#/'
+
+2019-01-09 15:05:45 - [TEST_STEP][PASSED] - setText(findTestObject("LoginMario/LoginPage_Chazki/input_envos_emailLogin"), "renzo@gmail.com"): Text 'renzo@gmail.com' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_envos_emailLogin'
+
+2019-01-09 15:05:46 - [MESSAGE][PASSED] - Text 'renzo@gmail.com' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_envos_emailLogin'
+
+2019-01-09 15:05:46 - [TEST_STEP][PASSED] - setText(findTestObject("LoginMario/LoginPage_Chazki/input_Campo requerido_password"), "tutu102"): Text 'tutu102' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_Campo requerido_password'
+
+2019-01-09 15:05:47 - [MESSAGE][PASSED] - Text 'tutu102' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_Campo requerido_password'
+
+2019-01-09 15:05:47 - [TEST_STEP][PASSED] - click(findTestObject("LoginMario/LoginPage_Chazki/button_Ingresar")): Object: 'Object Repository/LoginMario/LoginPage_Chazki/button_Ingresar' is clicked on
+
+2019-01-09 15:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginMario/LoginPage_Chazki/button_Ingresar' is clicked on
+
+2019-01-09 15:05:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:05:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:05:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Express_Chazki/span_luis chavez"), "renzo chavez"): Actual text and expected text of test object 'Object Repository/Express_Chazki/span_luis chavez' are matched.
+
+2019-01-09 15:05:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Express_Chazki/span_luis chavez' are matched.
+
+2019-01-09 15:05:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:06:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:06:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Recojo/ContactoRecojo"), "juana"): Keys 'juana' sent to object: 'Object Repository/Express_Chazki/Recojo/ContactoRecojo'
+
+2019-01-09 15:06:01 - [MESSAGE][PASSED] - Keys 'juana' sent to object: 'Object Repository/Express_Chazki/Recojo/ContactoRecojo'
+
+2019-01-09 15:06:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Recojo/TelefonoRecojo"), "963258741"): Keys '963258741' sent to object: 'Object Repository/Express_Chazki/Recojo/TelefonoRecojo'
+
+2019-01-09 15:06:02 - [MESSAGE][PASSED] - Keys '963258741' sent to object: 'Object Repository/Express_Chazki/Recojo/TelefonoRecojo'
+
+2019-01-09 15:06:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:06:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:06:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Recojo/DireccionRecojo"), "los jardines de "): Keys 'los jardines de ' sent to object: 'Object Repository/Express_Chazki/Recojo/DireccionRecojo'
+
+2019-01-09 15:06:10 - [MESSAGE][PASSED] - Keys 'los jardines de ' sent to object: 'Object Repository/Express_Chazki/Recojo/DireccionRecojo'
+
+2019-01-09 15:06:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:06:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:06:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Recojo/DireccionRecojo"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Recojo/DireccionRecojo'
+
+2019-01-09 15:06:15 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Recojo/DireccionRecojo'
+
+2019-01-09 15:06:15 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-09 15:06:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-09 15:06:25 - [TEST_STEP][PASSED] - setText(findTestObject("Express_Chazki/Entrega/Entrega0/ContactoEntrega-0"), "carlos"): Text 'carlos' is set on object 'Object Repository/Express_Chazki/Entrega/Entrega0/ContactoEntrega-0'
+
+2019-01-09 15:06:27 - [MESSAGE][PASSED] - Text 'carlos' is set on object 'Object Repository/Express_Chazki/Entrega/Entrega0/ContactoEntrega-0'
+
+2019-01-09 15:06:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:06:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:06:32 - [TEST_STEP][PASSED] - setText(findTestObject("Express_Chazki/Entrega/Entrega0/TelefonoEntrega-0"), "999046712"): Text '999046712' is set on object 'Object Repository/Express_Chazki/Entrega/Entrega0/TelefonoEntrega-0'
+
+2019-01-09 15:06:33 - [MESSAGE][PASSED] - Text '999046712' is set on object 'Object Repository/Express_Chazki/Entrega/Entrega0/TelefonoEntrega-0'
+
+2019-01-09 15:06:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:06:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:06:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega0/DireccionEntrega-0"), "avenida la molina"): Keys 'avenida la molina' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/DireccionEntrega-0'
+
+2019-01-09 15:06:41 - [MESSAGE][PASSED] - Keys 'avenida la molina' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/DireccionEntrega-0'
+
+2019-01-09 15:06:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:06:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:06:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega0/DireccionEntrega-0"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/DireccionEntrega-0'
+
+2019-01-09 15:06:46 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/DireccionEntrega-0'
+
+2019-01-09 15:06:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:06:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/ConfirmarOrden/button_No")): Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 15:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 15:06:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:06:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:06:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega0/ProductoEntrega-0"), "celular"): Keys 'celular' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/ProductoEntrega-0'
+
+2019-01-09 15:06:57 - [MESSAGE][PASSED] - Keys 'celular' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/ProductoEntrega-0'
+
+2019-01-09 15:06:57 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/AgregarDestino/p_Agregar Destino")): Object: 'Object Repository/Express_Chazki/AgregarDestino/p_Agregar Destino' is clicked on
+
+2019-01-09 15:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/AgregarDestino/p_Agregar Destino' is clicked on
+
+2019-01-09 15:06:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:07:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:07:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega1/Contacto-Entrega-1"), "lesly"): Keys 'lesly' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Contacto-Entrega-1'
+
+2019-01-09 15:07:03 - [MESSAGE][PASSED] - Keys 'lesly' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Contacto-Entrega-1'
+
+2019-01-09 15:07:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:07:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:07:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega1/Telefono-Entrega-1"), "998852321"): Keys '998852321' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Telefono-Entrega-1'
+
+2019-01-09 15:07:09 - [MESSAGE][PASSED] - Keys '998852321' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Telefono-Entrega-1'
+
+2019-01-09 15:07:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:07:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:07:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1"), "san isidro"): Keys 'san isidro' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1'
+
+2019-01-09 15:07:15 - [MESSAGE][PASSED] - Keys 'san isidro' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1'
+
+2019-01-09 15:07:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:07:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:07:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1'
+
+2019-01-09 15:07:20 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1'
+
+2019-01-09 15:07:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:07:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:07:25 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/ConfirmarOrden/button_No")): Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 15:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 15:07:25 - [TEST_STEP][PASSED] - scrollToPosition(50, 60): Browser is scrolled to position x = 50, y = 60
+
+2019-01-09 15:07:26 - [MESSAGE][PASSED] - Browser is scrolled to position x = 50, y = 60
+
+2019-01-09 15:07:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega1/Producto-Entrega-1"), "casaca"): Keys 'casaca' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Producto-Entrega-1'
+
+2019-01-09 15:07:26 - [MESSAGE][PASSED] - Keys 'casaca' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Producto-Entrega-1'
+
+2019-01-09 15:07:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:07:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:07:31 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/AgregarDestino/p_Agregar Destino")): Object: 'Object Repository/Express_Chazki/AgregarDestino/p_Agregar Destino' is clicked on
+
+2019-01-09 15:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/AgregarDestino/p_Agregar Destino' is clicked on
+
+2019-01-09 15:07:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega2/Contacto-Entrega-2"), "carmen"): Keys 'carmen' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega2/Contacto-Entrega-2'
+
+2019-01-09 15:07:32 - [MESSAGE][PASSED] - Keys 'carmen' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega2/Contacto-Entrega-2'
+
+2019-01-09 15:07:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:07:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:07:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega2/Telefono-Entrega-2"), "998852321"): Keys '998852321' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega2/Telefono-Entrega-2'
+
+2019-01-09 15:07:38 - [MESSAGE][PASSED] - Keys '998852321' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega2/Telefono-Entrega-2'
+
+2019-01-09 15:07:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:07:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:07:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega2/Direccion-Entrega-2"), "san borja"): Keys 'san borja' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega2/Direccion-Entrega-2'
+
+2019-01-09 15:07:44 - [MESSAGE][PASSED] - Keys 'san borja' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega2/Direccion-Entrega-2'
+
+2019-01-09 15:07:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:07:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:07:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega2/Direccion-Entrega-2"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega2/Direccion-Entrega-2'
+
+2019-01-09 15:07:50 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega2/Direccion-Entrega-2'
+
+2019-01-09 15:07:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:07:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/ConfirmarOrden/button_No")): Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 15:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 15:07:55 - [TEST_STEP][PASSED] - scrollToPosition(50, 60): Browser is scrolled to position x = 50, y = 60
+
+2019-01-09 15:07:55 - [MESSAGE][PASSED] - Browser is scrolled to position x = 50, y = 60
+
+2019-01-09 15:07:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:08:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:08:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega2/Producto-Entrega-2"), "talco"): Keys 'talco' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega2/Producto-Entrega-2'
+
+2019-01-09 15:08:01 - [MESSAGE][PASSED] - Keys 'talco' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega2/Producto-Entrega-2'
+
+2019-01-09 15:08:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:08:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:08:06 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/AgregarDestino/p_Agregar Destino")): Object: 'Object Repository/Express_Chazki/AgregarDestino/p_Agregar Destino' is clicked on
+
+2019-01-09 15:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/AgregarDestino/p_Agregar Destino' is clicked on
+
+2019-01-09 15:08:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega3/Contacto-Entrega-3"), "xiomara"): Keys 'xiomara' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega3/Contacto-Entrega-3'
+
+2019-01-09 15:08:08 - [MESSAGE][PASSED] - Keys 'xiomara' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega3/Contacto-Entrega-3'
+
+2019-01-09 15:08:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:08:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:08:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega3/Telefono-Entrega-3"), "987456311"): Keys '987456311' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega3/Telefono-Entrega-3'
+
+2019-01-09 15:08:14 - [MESSAGE][PASSED] - Keys '987456311' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega3/Telefono-Entrega-3'
+
+2019-01-09 15:08:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:08:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:08:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega3/Direccion-Entrega-3"), "surco"): Keys 'surco' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega3/Direccion-Entrega-3'
+
+2019-01-09 15:08:20 - [MESSAGE][PASSED] - Keys 'surco' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega3/Direccion-Entrega-3'
+
+2019-01-09 15:08:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:08:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:08:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega3/Direccion-Entrega-3"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega3/Direccion-Entrega-3'
+
+2019-01-09 15:08:25 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega3/Direccion-Entrega-3'
+
+2019-01-09 15:08:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:08:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:08:30 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/ConfirmarOrden/button_No")): Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 15:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 15:08:31 - [TEST_STEP][PASSED] - scrollToPosition(50, 60): Browser is scrolled to position x = 50, y = 60
+
+2019-01-09 15:08:31 - [MESSAGE][PASSED] - Browser is scrolled to position x = 50, y = 60
+
+2019-01-09 15:08:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:08:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:08:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega3/Producto-Entrega-3"), "medias"): Keys 'medias' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega3/Producto-Entrega-3'
+
+2019-01-09 15:08:36 - [MESSAGE][PASSED] - Keys 'medias' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega3/Producto-Entrega-3'
+
+2019-01-09 15:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/ConfirmarOrden/button_PEDIR")): Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_PEDIR' is clicked on
+
+2019-01-09 15:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_PEDIR' is clicked on
+
+2019-01-09 15:08:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 15:08:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 15:08:42 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/ConfirmarOrden/button_Si")): Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_Si' is clicked on
+
+2019-01-09 15:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_Si' is clicked on
+
+2019-01-09 15:08:42 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2019-01-09 15:09:12 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-01-09 15:09:12 - [TEST_STEP][FAILED] - takeScreenshot("C:\Users\Administrator\Desktop\CAPTURA EXPRESS"): takeScreenshot("C:\Users\Administrator\Desktop\CAPTURA EXPRESS") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot (Root cause: java.io.IOException: Destination 'C:\Users\Administrator\Desktop\CAPTURA EXPRESS' exists but is a directory)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$5.call(Unknown Source)
+	at Express1-4.run(Express1-4:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547064315215.run(TempTestSuite1547064315215.groovy:36)
+
+
+2019-01-09 15:09:16 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: java.io.IOException: Destination 'C:\Users\Administrator\Desktop\CAPTURA EXPRESS' exists but is a directory)
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\Example\\Reports\\Test Suite3\\20190109_150515\\1547064554656.png]]
+
+2019-01-09 15:09:16 - [MESSAGE][FAILED] - takeScreenshot("C:\Users\Administrator\Desktop\CAPTURA EXPRESS") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot (Root cause: java.io.IOException: Destination 'C:\Users\Administrator\Desktop\CAPTURA EXPRESS' exists but is a directory)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$5.call(Unknown Source)
+	at Express1-4.run(Express1-4:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547064315215.run(TempTestSuite1547064315215.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-09 15:05:24 - [TEST_CASE][FAILED] - Test Cases/Express/Express1-4/Express1-4: Test Cases/Express/Express1-4/Express1-4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot (Root cause: java.io.IOException: Destination 'C:\Users\Administrator\Desktop\CAPTURA EXPRESS' exists but is a directory)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$5.call(Unknown Source)
+	at Express1-4.run(Express1-4:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547064315215.run(TempTestSuite1547064315215.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-09 15:05:23 - [TEST_SUITE][FAILED] - Test Suite3: Test Cases/Express/Express1-4/Express1-4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot (Root cause: java.io.IOException: Destination 'C:\Users\Administrator\Desktop\CAPTURA EXPRESS' exists but is a directory)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$5.call(Unknown Source)
+	at Express1-4.run(Express1-4:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547064315215.run(TempTestSuite1547064315215.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-09 15:05:23 - [TEST_SUITE][FAILED] - Test Suite3: Test Cases/Express/Express1-4/Express1-4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot (Root cause: java.io.IOException: Destination 'C:\Users\Administrator\Desktop\CAPTURA EXPRESS' exists but is a directory)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$5.call(Unknown Source)
+	at Express1-4.run(Express1-4:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547064315215.run(TempTestSuite1547064315215.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

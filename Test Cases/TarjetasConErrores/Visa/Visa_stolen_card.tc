@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El sistema debera de mostrar el mensaje de stolen_card</description>
+   <name>Visa_stolen_card</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f9a02dd-e485-4e82-887a-69e55aa41c76</testCaseGuid>
+</TestCaseEntity>

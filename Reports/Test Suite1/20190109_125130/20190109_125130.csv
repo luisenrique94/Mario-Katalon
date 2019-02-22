@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite1,Chrome 71.0.3578.98,,2019-01-09 12:51:49,2019-01-09 12:54:49,3m - 0.232s,PASSED
+,,,,,,
+Test Cases/Express/Express1-2/Express1-2,Chrome 71.0.3578.98,Pedido express de recojo a un punto de entrega,2019-01-09 12:51:49,2019-01-09 12:54:47,2m - 58.095s,PASSED
+"openBrowser(""https://mario.chazki.com/#/"", STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-09 12:51:50,2019-01-09 12:52:06,16.006s,PASSED
+"setText(findTestObject(""LoginMario/LoginPage_Chazki/input_envos_emailLogin""), ""renzo@gmail.com"")",Chrome 71.0.3578.98,,2019-01-09 12:52:06,2019-01-09 12:52:07,0.784s,PASSED
+"setText(findTestObject(""LoginMario/LoginPage_Chazki/input_Campo requerido_password""), ""tutu102"")",Chrome 71.0.3578.98,,2019-01-09 12:52:07,2019-01-09 12:52:07,0.265s,PASSED
+"click(findTestObject(""LoginMario/LoginPage_Chazki/button_Ingresar""))",Chrome 71.0.3578.98,,2019-01-09 12:52:07,2019-01-09 12:52:07,0.224s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:52:07,2019-01-09 12:52:12,5.055s,PASSED
+"verifyElementText(findTestObject(""Express_Chazki/span_luis chavez""), ""renzo chavez"")",Chrome 71.0.3578.98,,2019-01-09 12:52:12,2019-01-09 12:52:16,3.709s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:52:16,2019-01-09 12:52:21,5.004s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Recojo/ContactoRecojo""), ""juana"")",Chrome 71.0.3578.98,,2019-01-09 12:52:21,2019-01-09 12:52:22,0.628s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Recojo/TelefonoRecojo""), ""963258741"")",Chrome 71.0.3578.98,,2019-01-09 12:52:22,2019-01-09 12:52:22,0.630s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:52:22,2019-01-09 12:52:27,5.004s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Recojo/DireccionRecojo""), ""los jardines de "")",Chrome 71.0.3578.98,,2019-01-09 12:52:27,2019-01-09 12:52:28,1.061s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:52:28,2019-01-09 12:52:33,5.006s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Recojo/DireccionRecojo""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 71.0.3578.98,,2019-01-09 12:52:33,2019-01-09 12:52:34,0.259s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-09 12:52:34,2019-01-09 12:52:44,10.006s,PASSED
+"setText(findTestObject(""Express_Chazki/Entrega/Entrega0/ContactoEntrega-0""), ""carlos"")",Chrome 71.0.3578.98,,2019-01-09 12:52:44,2019-01-09 12:52:44,0.709s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:52:44,2019-01-09 12:52:49,5.008s,PASSED
+"setText(findTestObject(""Express_Chazki/Entrega/Entrega0/TelefonoEntrega-0""), ""999046712"")",Chrome 71.0.3578.98,,2019-01-09 12:52:49,2019-01-09 12:52:50,0.806s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:52:50,2019-01-09 12:52:55,5.006s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Entrega/Entrega0/DireccionEntrega-0""), ""avenida la molina"")",Chrome 71.0.3578.98,,2019-01-09 12:52:55,2019-01-09 12:52:56,1.124s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:52:56,2019-01-09 12:53:01,5.006s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Entrega/Entrega0/DireccionEntrega-0""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 71.0.3578.98,,2019-01-09 12:53:01,2019-01-09 12:53:02,0.384s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:53:02,2019-01-09 12:53:07,5.005s,PASSED
+"click(findTestObject(""Express_Chazki/ConfirmarOrden/button_No""))",Chrome 71.0.3578.98,,2019-01-09 12:53:07,2019-01-09 12:53:07,0.348s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:53:07,2019-01-09 12:53:12,5.004s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Entrega/Entrega0/ProductoEntrega-0""), ""celular"")",Chrome 71.0.3578.98,,2019-01-09 12:53:12,2019-01-09 12:53:12,0.506s,PASSED
+"click(findTestObject(""Express_Chazki/AgregarDestino/p_Agregar Destino""))",Chrome 71.0.3578.98,,2019-01-09 12:53:12,2019-01-09 12:53:13,0.369s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:53:13,2019-01-09 12:53:18,5.004s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Entrega/Entrega1/Contacto-Entrega-1""), ""lesly"")",Chrome 71.0.3578.98,,2019-01-09 12:53:18,2019-01-09 12:53:18,0.632s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:53:18,2019-01-09 12:53:23,5.004s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Entrega/Entrega1/Telefono-Entrega-1""), ""998852321"")",Chrome 71.0.3578.98,,2019-01-09 12:53:23,2019-01-09 12:53:24,0.754s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:53:24,2019-01-09 12:53:29,5.002s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1""), ""san isidro"")",Chrome 71.0.3578.98,,2019-01-09 12:53:29,2019-01-09 12:53:30,0.779s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:53:30,2019-01-09 12:53:35,5.005s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 71.0.3578.98,,2019-01-09 12:53:35,2019-01-09 12:53:35,0.404s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:53:35,2019-01-09 12:53:40,5.005s,PASSED
+"click(findTestObject(""Express_Chazki/ConfirmarOrden/button_No""))",Chrome 71.0.3578.98,,2019-01-09 12:53:40,2019-01-09 12:53:41,0.244s,PASSED
+"scrollToPosition(50, 60)",Chrome 71.0.3578.98,,2019-01-09 12:53:41,2019-01-09 12:53:41,0.112s,PASSED
+"sendKeys(findTestObject(""Express_Chazki/Entrega/Entrega1/Producto-Entrega-1""), ""casaca"")",Chrome 71.0.3578.98,,2019-01-09 12:53:41,2019-01-09 12:53:42,0.863s,PASSED
+"click(findTestObject(""Express_Chazki/ConfirmarOrden/button_PEDIR""))",Chrome 71.0.3578.98,,2019-01-09 12:53:42,2019-01-09 12:53:42,0.288s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 12:53:42,2019-01-09 12:53:47,5.003s,PASSED
+"click(findTestObject(""Express_Chazki/ConfirmarOrden/button_Si""))",Chrome 71.0.3578.98,,2019-01-09 12:53:47,2019-01-09 12:53:47,0.288s,PASSED
+delay(60),Chrome 71.0.3578.98,,2019-01-09 12:53:47,2019-01-09 12:54:47,1m - 0.004s,PASSED

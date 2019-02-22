@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite1" time="180" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite1" tests="1" failures="0" errors="0" time="180" timestamp="2019-01-09 12:51:49" hostname="Administrator - DESKTOP-OGOHDN0" id="Test Suites/Test Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\Example\\Reports\\Test Suite1\\20190109_125130"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\Example\\Reports\\Test Suite1\\20190109_125130\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - DESKTOP-OGOHDN0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.88.98"/>
+         <property name="sessionId" value="e38a2539c3607877a7589503bea2132c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Express/Express1-2/Express1-2" classname="Test Cases/Express/Express1-2/Express1-2" status="PASSED">
+         <system-out><![CDATA[2019-01-09 12:51:49 - [TEST_CASE][PASSED] - Test Cases/Express/Express1-2/Express1-2: Test Cases/Express/Express1-2/Express1-2
+
+2019-01-09 12:51:50 - [TEST_STEP][PASSED] - openBrowser("https://mario.chazki.com/#/", STOP_ON_FAILURE): Browser is opened with url: 'https://mario.chazki.com/#/'
+
+2019-01-09 12:51:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 12:51:51 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-09 12:52:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mario.chazki.com/#/'
+
+2019-01-09 12:52:06 - [TEST_STEP][PASSED] - setText(findTestObject("LoginMario/LoginPage_Chazki/input_envos_emailLogin"), "renzo@gmail.com"): Text 'renzo@gmail.com' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_envos_emailLogin'
+
+2019-01-09 12:52:07 - [MESSAGE][PASSED] - Text 'renzo@gmail.com' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_envos_emailLogin'
+
+2019-01-09 12:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("LoginMario/LoginPage_Chazki/input_Campo requerido_password"), "tutu102"): Text 'tutu102' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_Campo requerido_password'
+
+2019-01-09 12:52:07 - [MESSAGE][PASSED] - Text 'tutu102' is set on object 'Object Repository/LoginMario/LoginPage_Chazki/input_Campo requerido_password'
+
+2019-01-09 12:52:07 - [TEST_STEP][PASSED] - click(findTestObject("LoginMario/LoginPage_Chazki/button_Ingresar")): Object: 'Object Repository/LoginMario/LoginPage_Chazki/button_Ingresar' is clicked on
+
+2019-01-09 12:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginMario/LoginPage_Chazki/button_Ingresar' is clicked on
+
+2019-01-09 12:52:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:52:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:52:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Express_Chazki/span_luis chavez"), "renzo chavez"): Actual text and expected text of test object 'Object Repository/Express_Chazki/span_luis chavez' are matched.
+
+2019-01-09 12:52:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Express_Chazki/span_luis chavez' are matched.
+
+2019-01-09 12:52:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:52:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:52:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Recojo/ContactoRecojo"), "juana"): Keys 'juana' sent to object: 'Object Repository/Express_Chazki/Recojo/ContactoRecojo'
+
+2019-01-09 12:52:22 - [MESSAGE][PASSED] - Keys 'juana' sent to object: 'Object Repository/Express_Chazki/Recojo/ContactoRecojo'
+
+2019-01-09 12:52:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Recojo/TelefonoRecojo"), "963258741"): Keys '963258741' sent to object: 'Object Repository/Express_Chazki/Recojo/TelefonoRecojo'
+
+2019-01-09 12:52:22 - [MESSAGE][PASSED] - Keys '963258741' sent to object: 'Object Repository/Express_Chazki/Recojo/TelefonoRecojo'
+
+2019-01-09 12:52:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:52:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:52:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Recojo/DireccionRecojo"), "los jardines de "): Keys 'los jardines de ' sent to object: 'Object Repository/Express_Chazki/Recojo/DireccionRecojo'
+
+2019-01-09 12:52:28 - [MESSAGE][PASSED] - Keys 'los jardines de ' sent to object: 'Object Repository/Express_Chazki/Recojo/DireccionRecojo'
+
+2019-01-09 12:52:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:52:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:52:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Recojo/DireccionRecojo"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Recojo/DireccionRecojo'
+
+2019-01-09 12:52:34 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Recojo/DireccionRecojo'
+
+2019-01-09 12:52:34 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-09 12:52:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-09 12:52:44 - [TEST_STEP][PASSED] - setText(findTestObject("Express_Chazki/Entrega/Entrega0/ContactoEntrega-0"), "carlos"): Text 'carlos' is set on object 'Object Repository/Express_Chazki/Entrega/Entrega0/ContactoEntrega-0'
+
+2019-01-09 12:52:44 - [MESSAGE][PASSED] - Text 'carlos' is set on object 'Object Repository/Express_Chazki/Entrega/Entrega0/ContactoEntrega-0'
+
+2019-01-09 12:52:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:52:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:52:49 - [TEST_STEP][PASSED] - setText(findTestObject("Express_Chazki/Entrega/Entrega0/TelefonoEntrega-0"), "999046712"): Text '999046712' is set on object 'Object Repository/Express_Chazki/Entrega/Entrega0/TelefonoEntrega-0'
+
+2019-01-09 12:52:50 - [MESSAGE][PASSED] - Text '999046712' is set on object 'Object Repository/Express_Chazki/Entrega/Entrega0/TelefonoEntrega-0'
+
+2019-01-09 12:52:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:52:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:52:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega0/DireccionEntrega-0"), "avenida la molina"): Keys 'avenida la molina' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/DireccionEntrega-0'
+
+2019-01-09 12:52:56 - [MESSAGE][PASSED] - Keys 'avenida la molina' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/DireccionEntrega-0'
+
+2019-01-09 12:52:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:53:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:53:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega0/DireccionEntrega-0"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/DireccionEntrega-0'
+
+2019-01-09 12:53:02 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/DireccionEntrega-0'
+
+2019-01-09 12:53:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:53:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:53:07 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/ConfirmarOrden/button_No")): Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 12:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 12:53:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:53:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:53:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega0/ProductoEntrega-0"), "celular"): Keys 'celular' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/ProductoEntrega-0'
+
+2019-01-09 12:53:12 - [MESSAGE][PASSED] - Keys 'celular' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega0/ProductoEntrega-0'
+
+2019-01-09 12:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/AgregarDestino/p_Agregar Destino")): Object: 'Object Repository/Express_Chazki/AgregarDestino/p_Agregar Destino' is clicked on
+
+2019-01-09 12:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/AgregarDestino/p_Agregar Destino' is clicked on
+
+2019-01-09 12:53:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:53:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:53:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega1/Contacto-Entrega-1"), "lesly"): Keys 'lesly' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Contacto-Entrega-1'
+
+2019-01-09 12:53:18 - [MESSAGE][PASSED] - Keys 'lesly' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Contacto-Entrega-1'
+
+2019-01-09 12:53:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:53:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:53:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega1/Telefono-Entrega-1"), "998852321"): Keys '998852321' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Telefono-Entrega-1'
+
+2019-01-09 12:53:24 - [MESSAGE][PASSED] - Keys '998852321' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Telefono-Entrega-1'
+
+2019-01-09 12:53:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:53:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:53:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1"), "san isidro"): Keys 'san isidro' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1'
+
+2019-01-09 12:53:30 - [MESSAGE][PASSED] - Keys 'san isidro' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1'
+
+2019-01-09 12:53:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:53:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:53:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1'
+
+2019-01-09 12:53:35 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Direccion-Entrega-1'
+
+2019-01-09 12:53:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:53:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:53:40 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/ConfirmarOrden/button_No")): Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 12:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_No' is clicked on
+
+2019-01-09 12:53:41 - [TEST_STEP][PASSED] - scrollToPosition(50, 60): Browser is scrolled to position x = 50, y = 60
+
+2019-01-09 12:53:41 - [MESSAGE][PASSED] - Browser is scrolled to position x = 50, y = 60
+
+2019-01-09 12:53:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Express_Chazki/Entrega/Entrega1/Producto-Entrega-1"), "casaca"): Keys 'casaca' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Producto-Entrega-1'
+
+2019-01-09 12:53:42 - [MESSAGE][PASSED] - Keys 'casaca' sent to object: 'Object Repository/Express_Chazki/Entrega/Entrega1/Producto-Entrega-1'
+
+2019-01-09 12:53:42 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/ConfirmarOrden/button_PEDIR")): Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_PEDIR' is clicked on
+
+2019-01-09 12:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_PEDIR' is clicked on
+
+2019-01-09 12:53:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 12:53:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 12:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Express_Chazki/ConfirmarOrden/button_Si")): Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_Si' is clicked on
+
+2019-01-09 12:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Express_Chazki/ConfirmarOrden/button_Si' is clicked on
+
+2019-01-09 12:53:47 - [TEST_STEP][PASSED] - delay(60): Delayed 60 second(s)
+
+2019-01-09 12:54:47 - [MESSAGE][PASSED] - Delayed 60 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-09 12:51:49 - [TEST_SUITE][PASSED] - Test Suite1: Test Cases/Express/Express1-2/Express1-2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

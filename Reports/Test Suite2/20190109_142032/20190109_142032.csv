@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite2,,,2019-01-09 14:20:39,2019-01-09 14:20:45,5.958s,FAILED
+,,,,,,
+Test Cases/Express/Express1-3/Express1-3,,Pedido express de recojo a un punto de entrega,2019-01-09 14:20:41,2019-01-09 14:20:45,4.072s,FAILED
+"openBrowser(""https://mario.chazki.com/#/"", STOP_ON_FAILURE)",,,2019-01-09 14:20:44,2019-01-09 14:20:45,1.258s,FAILED

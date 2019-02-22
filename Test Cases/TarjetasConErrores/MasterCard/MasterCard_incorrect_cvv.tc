@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El sistema debera de mostrar el mensaje de stolen_card</description>
+   <name>MasterCard_incorrect_cvv</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3555b489-ddde-4764-9a49-d734abeec9f3</testCaseGuid>
+</TestCaseEntity>

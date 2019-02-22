@@ -1,0 +1,128 @@
+1
+00:00:00,991 --> 00:00:01,002
+1. openBrowser("https://mario.chazki.com/#/", STOP_ON_FAILURE)
+
+2
+00:00:15,583 --> 00:00:15,588
+5. setText(findTestObject("LoginMario/LoginPage_Chazki/input_envos_emailLogin"), "barriga@gmail.com")
+
+3
+00:00:16,965 --> 00:00:16,967
+9. setText(findTestObject("LoginMario/LoginPage_Chazki/input_Campo requerido_password"), "tutu102")
+
+4
+00:00:17,700 --> 00:00:17,702
+13. click(findTestObject("LoginMario/LoginPage_Chazki/button_Ingresar"))
+
+5
+00:00:17,988 --> 00:00:17,991
+17. delay(5)
+
+6
+00:00:23,094 --> 00:00:23,098
+21. verifyElementText(findTestObject("Express_Chazki/span_luis chavez"), "barriga barriga")
+
+7
+00:00:29,737 --> 00:00:29,738
+25. delay(5)
+
+8
+00:00:34,756 --> 00:00:34,758
+29. sendKeys(findTestObject("Express_Chazki/Recojo/ContactoRecojo"), "MARIELA")
+
+9
+00:00:35,718 --> 00:00:35,721
+33. sendKeys(findTestObject("Express_Chazki/Recojo/TelefonoRecojo"), "963258741")
+
+10
+00:00:36,211 --> 00:00:36,219
+37. delay(5)
+
+11
+00:00:41,285 --> 00:00:41,288
+41. sendKeys(findTestObject("Express_Chazki/Recojo/DireccionRecojo"), "los jardines de ")
+
+12
+00:00:42,294 --> 00:00:42,296
+45. delay(5)
+
+13
+00:00:47,313 --> 00:00:47,316
+49. sendKeys(findTestObject("Express_Chazki/Recojo/DireccionRecojo"), Keys.chord(ARROW_DOWN, ENTER))
+
+14
+00:00:47,569 --> 00:00:47,571
+53. delay(10)
+
+15
+00:00:57,595 --> 00:00:57,599
+57. setText(findTestObject("Express_Chazki/Entrega/Entrega0/ContactoEntrega-0"), "carlos")
+
+16
+00:00:58,325 --> 00:00:58,330
+61. delay(5)
+
+17
+00:01:03,395 --> 00:01:03,400
+65. setText(findTestObject("Express_Chazki/Entrega/Entrega0/TelefonoEntrega-0"), "999046712")
+
+18
+00:01:04,233 --> 00:01:04,236
+69. delay(5)
+
+19
+00:01:09,275 --> 00:01:09,279
+73. sendKeys(findTestObject("Express_Chazki/Entrega/Entrega0/DireccionEntrega-0"), "avenida la molina")
+
+20
+00:01:10,288 --> 00:01:10,290
+77. delay(5)
+
+21
+00:01:15,318 --> 00:01:15,321
+81. sendKeys(findTestObject("Express_Chazki/Entrega/Entrega0/DireccionEntrega-0"), Keys.chord(ARROW_DOWN, ENTER))
+
+22
+00:01:15,728 --> 00:01:15,731
+85. delay(5)
+
+23
+00:01:20,823 --> 00:01:20,827
+89. click(findTestObject("Express_Chazki/ConfirmarOrden/button_No"))
+
+24
+00:01:21,134 --> 00:01:21,135
+93. delay(5)
+
+25
+00:01:26,154 --> 00:01:26,156
+97. sendKeys(findTestObject("Express_Chazki/Entrega/Entrega0/ProductoEntrega-0"), "celular")
+
+26
+00:01:26,923 --> 00:01:26,925
+101. click(findTestObject("Express_Chazki/ConfirmarOrden/button_PEDIR"))
+
+27
+00:01:27,278 --> 00:01:27,280
+105. delay(5)
+
+28
+00:01:32,422 --> 00:01:32,425
+109. click(findTestObject("Express_Chazki/ConfirmarOrden/button_Si"))
+
+29
+00:01:32,821 --> 00:01:32,823
+113. delay(20)
+
+30
+00:01:52,852 --> 00:01:52,853
+117. click(findTestObject("VerificarPrecioyKilometraje/MIS ENVIOS"))
+
+31
+00:01:53,551 --> 00:01:53,552
+121. delay(20)
+
+32
+00:02:13,594 --> 00:02:13,598
+125. takeScreenshot("C:\Users\Administrator\Desktop\CAPTURA EXPRESS\express1-1-envios.png")
+

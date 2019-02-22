@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pedido express de recojo a un punto de entrega</description>
+   <name>Express1-6</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1493dbbe-104e-4a1e-bd7d-774bb6709aed</testCaseGuid>
+</TestCaseEntity>

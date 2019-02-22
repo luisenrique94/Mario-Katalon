@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginCSV,Chrome 71.0.3578.98,,2019-01-17 14:46:42,2019-01-17 14:47:14,31.428s,PASSED
+,,,,,,
+Test Cases/INICIAR SESION/LoginCSV,Chrome 71.0.3578.98,,2019-01-17 14:46:44,2019-01-17 14:47:01,16.868s,PASSED
+"openBrowser(""https://mario.chazki.com/#/"", STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-17 14:46:45,2019-01-17 14:47:00,14.989s,PASSED
+"setText(findTestObject(""LoginMario/LoginPage_Chazki/input_envos_emailLogin""), Username)",Chrome 71.0.3578.98,,2019-01-17 14:47:00,2019-01-17 14:47:00,0.403s,PASSED
+"setText(findTestObject(""LoginMario/LoginPage_Chazki/input_Campo requerido_password""), Password)",Chrome 71.0.3578.98,,2019-01-17 14:47:00,2019-01-17 14:47:00,0.215s,PASSED
+"click(findTestObject(""LoginMario/LoginPage_Chazki/button_Ingresar""))",Chrome 71.0.3578.98,,2019-01-17 14:47:00,2019-01-17 14:47:01,0.176s,PASSED
+,,,,,,
+Test Cases/INICIAR SESION/LoginCSV,Chrome 71.0.3578.98,,2019-01-17 14:47:01,2019-01-17 14:47:13,12.175s,PASSED
+"openBrowser(""https://mario.chazki.com/#/"", STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-17 14:47:01,2019-01-17 14:47:12,10.963s,PASSED
+"setText(findTestObject(""LoginMario/LoginPage_Chazki/input_envos_emailLogin""), Username)",Chrome 71.0.3578.98,,2019-01-17 14:47:12,2019-01-17 14:47:12,0.582s,PASSED
+"setText(findTestObject(""LoginMario/LoginPage_Chazki/input_Campo requerido_password""), Password)",Chrome 71.0.3578.98,,2019-01-17 14:47:12,2019-01-17 14:47:13,0.383s,PASSED
+"click(findTestObject(""LoginMario/LoginPage_Chazki/button_Ingresar""))",Chrome 71.0.3578.98,,2019-01-17 14:47:13,2019-01-17 14:47:13,0.233s,PASSED

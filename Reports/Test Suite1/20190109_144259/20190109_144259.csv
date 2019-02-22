@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite1,Chrome 71.0.3578.98,,2019-01-09 14:43:05,2019-01-09 14:43:38,32.873s,FAILED
+,,,,,,
+Test Cases/Express/Express1-2/Express1-2,Chrome 71.0.3578.98,Pedido express de recojo a un punto de entrega,2019-01-09 14:43:05,2019-01-09 14:43:34,28.935s,FAILED
+"openBrowser(""https://mario.chazki.com/#/"", STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-09 14:43:06,2019-01-09 14:43:23,16.620s,PASSED
+"setText(findTestObject(""LoginMario/LoginPage_Chazki/input_envos_emailLogin""), ""renzo@gmail.com"")",Chrome 71.0.3578.98,,2019-01-09 14:43:23,2019-01-09 14:43:24,0.944s,PASSED
+"setText(findTestObject(""LoginMario/LoginPage_Chazki/input_Campo requerido_password""), ""tutu102"")",Chrome 71.0.3578.98,,2019-01-09 14:43:24,2019-01-09 14:43:24,0.299s,PASSED
+"click(findTestObject(""LoginMario/LoginPage_Chazki/button_Ingresar""))",Chrome 71.0.3578.98,,2019-01-09 14:43:24,2019-01-09 14:43:25,0.398s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-09 14:43:25,2019-01-09 14:43:30,5.034s,PASSED
+"verifyElementText(findTestObject(""Express_Chazki/span_luis chavez""), ""renzo chavez"")",Chrome 71.0.3578.98,,2019-01-09 14:43:30,2019-01-09 14:43:34,4.655s,FAILED
