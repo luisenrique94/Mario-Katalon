@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegistroUsuario" time="23" tests="1" failures="0" errors="0">
+   <testsuite name="RegistroUsuario" tests="1" failures="0" errors="0" time="23" timestamp="2019-03-13 15:46:00" hostname="Administrator - DESKTOP-OGOHDN0" id="Test Suites/RegistroUsuario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\Mario\\Reports\\RegistroUsuario\\20190313_154556"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\Mario\\Reports\\RegistroUsuario\\20190313_154556\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - DESKTOP-OGOHDN0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.88.98"/>
+         <property name="sessionId" value="31ff19ee277f13580eda03b49c6f9b62"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RegisterNewUser/NewUser" classname="Test Cases/RegisterNewUser/NewUser" status="PASSED">
+         <system-out><![CDATA[2019-03-13 15:46:01 - [TEST_CASE][PASSED] - Test Cases/RegisterNewUser/NewUser: Test Cases/RegisterNewUser/NewUser
+
+2019-03-13 15:46:03 - [TEST_STEP][PASSED] - openBrowser("https://mario.chazki.com/#/"): Browser is opened with url: 'https://mario.chazki.com/#/'
+
+2019-03-13 15:46:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-13 15:46:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-13 15:46:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mario.chazki.com/#/'
+
+2019-03-13 15:46:19 - [TEST_STEP][PASSED] - click(findTestObject("NewUser/strong_registrate aqu")): Object: 'Object Repository/NewUser/strong_registrate aqu' is clicked on
+
+2019-03-13 15:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/NewUser/strong_registrate aqu' is clicked on
+
+2019-03-13 15:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("NewUser/nombre"), "kanu"): Text 'kanu' is set on object 'Object Repository/NewUser/nombre'
+
+2019-03-13 15:46:20 - [MESSAGE][PASSED] - Text 'kanu' is set on object 'Object Repository/NewUser/nombre'
+
+2019-03-13 15:46:20 - [TEST_STEP][PASSED] - setText(findTestObject("NewUser/Apellidos"), "kanu"): Text 'kanu' is set on object 'Object Repository/NewUser/Apellidos'
+
+2019-03-13 15:46:20 - [MESSAGE][PASSED] - Text 'kanu' is set on object 'Object Repository/NewUser/Apellidos'
+
+2019-03-13 15:46:20 - [TEST_STEP][PASSED] - setText(findTestObject("NewUser/Telefono"), "999046712"): Text '999046712' is set on object 'Object Repository/NewUser/Telefono'
+
+2019-03-13 15:46:20 - [MESSAGE][PASSED] - Text '999046712' is set on object 'Object Repository/NewUser/Telefono'
+
+2019-03-13 15:46:20 - [TEST_STEP][PASSED] - setText(findTestObject("NewUser/Correo"), "kanu@gmail.com"): Text 'kanu@gmail.com' is set on object 'Object Repository/NewUser/Correo'
+
+2019-03-13 15:46:20 - [MESSAGE][PASSED] - Text 'kanu@gmail.com' is set on object 'Object Repository/NewUser/Correo'
+
+2019-03-13 15:46:20 - [TEST_STEP][PASSED] - setText(findTestObject("NewUser/contrasena"), "tutu102"): Text 'tutu102' is set on object 'Object Repository/NewUser/contrasena'
+
+2019-03-13 15:46:20 - [MESSAGE][PASSED] - Text 'tutu102' is set on object 'Object Repository/NewUser/contrasena'
+
+2019-03-13 15:46:20 - [TEST_STEP][PASSED] - setText(findTestObject("NewUser/repetir_contrasena"), "tutu102"): Text 'tutu102' is set on object 'Object Repository/NewUser/repetir_contrasena'
+
+2019-03-13 15:46:21 - [MESSAGE][PASSED] - Text 'tutu102' is set on object 'Object Repository/NewUser/repetir_contrasena'
+
+2019-03-13 15:46:21 - [TEST_STEP][PASSED] - click(findTestObject("NewUser/button_Guardar")): Object: 'Object Repository/NewUser/button_Guardar' is clicked on
+
+2019-03-13 15:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/NewUser/button_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-13 15:46:00 - [TEST_SUITE][PASSED] - RegistroUsuario: Test Cases/RegisterNewUser/NewUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

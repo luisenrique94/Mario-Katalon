@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RegistroUsuario,Chrome 72.0.3626.121,,2019-03-13 15:42:02,2019-03-13 15:42:28,25.907s,PASSED
+,,,,,,
+Test Cases/RegisterNewUser/NewUser,Chrome 72.0.3626.121,,2019-03-13 15:42:03,2019-03-13 15:42:27,23.522s,PASSED
+"openBrowser(""https://mario.chazki.com/#/"")",Chrome 72.0.3626.121,,2019-03-13 15:42:09,2019-03-13 15:42:21,11.973s,PASSED
+"click(findTestObject(""NewUser/strong_registrate aqu""))",Chrome 72.0.3626.121,,2019-03-13 15:42:21,2019-03-13 15:42:21,0.285s,PASSED
+"setText(findTestObject(""NewUser/nombre""), ""kanu"")",Chrome 72.0.3626.121,,2019-03-13 15:42:21,2019-03-13 15:42:23,1.700s,PASSED
+"setText(findTestObject(""NewUser/Apellidos""), ""kanu"")",Chrome 72.0.3626.121,,2019-03-13 15:42:23,2019-03-13 15:42:23,0.225s,PASSED
+"setText(findTestObject(""NewUser/Telefono""), ""999046712"")",Chrome 72.0.3626.121,,2019-03-13 15:42:23,2019-03-13 15:42:23,0.240s,PASSED
+"setText(findTestObject(""NewUser/Correo""), ""kanu@gmail.com"")",Chrome 72.0.3626.121,,2019-03-13 15:42:23,2019-03-13 15:42:24,0.284s,PASSED
+"setText(findTestObject(""NewUser/contrasena""), ""tutu102"")",Chrome 72.0.3626.121,,2019-03-13 15:42:24,2019-03-13 15:42:24,0.273s,PASSED
+"setText(findTestObject(""NewUser/repetir_contrasena""), ""tutu102"")",Chrome 72.0.3626.121,,2019-03-13 15:42:24,2019-03-13 15:42:24,0.213s,PASSED
+"click(findTestObject(""NewUser/button_Guardar""))",Chrome 72.0.3626.121,,2019-03-13 15:42:24,2019-03-13 15:42:24,0.137s,PASSED

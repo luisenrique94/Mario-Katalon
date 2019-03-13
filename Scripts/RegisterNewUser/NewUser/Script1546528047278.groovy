@@ -17,17 +17,17 @@ WebUI.openBrowser('https://mario.chazki.com/#/')
 
 WebUI.click(findTestObject('NewUser/strong_registrate aqu'))
 
-WebUI.setText(findTestObject('NewUser/nombre'), 'kanu')
+WebUI.setText(findTestObject('NewUser/nombre'), 'nombres')
 
-WebUI.setText(findTestObject('NewUser/Apellidos'), 'kanu')
+WebUI.setText(findTestObject('NewUser/Apellidos'), 'apellidos')
 
-WebUI.setText(findTestObject('NewUser/Telefono'), '999046712')
+WebUI.setText(findTestObject('NewUser/Telefono'), 'telefono')
 
-WebUI.setText(findTestObject('NewUser/Correo'), 'kanu@gmail.com')
+WebUI.setText(findTestObject('NewUser/Correo'), 'correo_electronico')
 
-WebUI.setText(findTestObject('NewUser/contrasena'), 'tutu102')
+WebUI.setText(findTestObject('NewUser/contrasena'), 'contrasena')
 
-WebUI.setText(findTestObject('NewUser/repetir_contrasena'), 'tutu102')
+WebUI.setText(findTestObject('NewUser/repetir_contrasena'), 'repetir_contrasena')
 
 WebUI.click(findTestObject('NewUser/button_Guardar'))
 

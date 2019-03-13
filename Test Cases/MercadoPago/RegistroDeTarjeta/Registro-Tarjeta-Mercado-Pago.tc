@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pedido express de recojo a un punto de entrega</description>
+   <name>Registro-Tarjeta-Mercado-Pago</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c98211c4-4041-4bd9-afb2-aa31731d14e5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+1
+00:00:01,103 --> 00:00:01,112
+1. openBrowser("https://mario.chazki.com/#/")
+
+2
+00:00:17,084 --> 00:00:17,087
+5. click(findTestObject("NewUser/strong_registrate aqu"))
+
+3
+00:00:17,290 --> 00:00:17,292
+9. setText(findTestObject("NewUser/nombre"), "kanu")
+
+4
+00:00:17,559 --> 00:00:17,561
+13. setText(findTestObject("NewUser/Apellidos"), "kanu")
+
+5
+00:00:17,742 --> 00:00:17,743
+17. setText(findTestObject("NewUser/Telefono"), "999046712")
+
+6
+00:00:17,972 --> 00:00:17,973
+21. setText(findTestObject("NewUser/Correo"), "kanu@gmail.com")
+
+7
+00:00:18,229 --> 00:00:18,230
+25. setText(findTestObject("NewUser/contrasena"), "tutu102")
+
+8
+00:00:18,419 --> 00:00:18,421
+29. setText(findTestObject("NewUser/repetir_contrasena"), "tutu102")
+
+9
+00:00:18,637 --> 00:00:18,649
+33. click(findTestObject("NewUser/button_Guardar"))
+
