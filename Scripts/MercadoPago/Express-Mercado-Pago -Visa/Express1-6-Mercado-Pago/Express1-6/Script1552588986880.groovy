@@ -18,7 +18,7 @@ WebUI.openBrowser('https://mario.chazki.com/#/', FailureHandling.STOP_ON_FAILURE
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('LoginMario/LoginPage_Chazki/input_envos_emailLogin'), 'lili@gmail.com')
+WebUI.setText(findTestObject('LoginMario/LoginPage_Chazki/input_envos_emailLogin'), 'lala@gmail.com')
 
 WebUI.setText(findTestObject('LoginMario/LoginPage_Chazki/input_Campo requerido_password'), 'tutu102')
 
@@ -26,11 +26,11 @@ WebUI.click(findTestObject('LoginMario/LoginPage_Chazki/button_Ingresar'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('Express_Chazki/span_luis chavez'), 'lili carrasco')
+WebUI.verifyElementText(findTestObject('Express_Chazki/span_luis chavez'), 'lala carrasco')
 
 WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject('Express_Chazki/Recojo/ContactoRecojo'), 'juana')
+WebUI.sendKeys(findTestObject('Express_Chazki/Recojo/ContactoRecojo'), 'MICHAEL')
 
 WebUI.sendKeys(findTestObject('Express_Chazki/Recojo/TelefonoRecojo'), '963258741')
 
@@ -91,6 +91,8 @@ WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega1/Producto-Entrega-
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Express_Chazki/AgregarDestino/p_Agregar Destino'))
+
+WebUI.delay(5)
 
 WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega2/Contacto-Entrega-2'), 'carmen')
 
@@ -166,7 +168,11 @@ WebUI.delay(5)
 
 WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega4/Producto-Entrega-4'), 'polos')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Express_Chazki/AgregarDestino/p_Agregar Destino'))
+
+WebUI.delay(5)
 
 WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega5/Contacto-Entrega-5'), 'OFELIA')
 
@@ -189,54 +195,6 @@ WebUI.scrollToPosition(50, 60)
 WebUI.delay(5)
 
 WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega5/Producto-Entrega-5'), 'pantalones')
-
-WebUI.click(findTestObject('Express_Chazki/AgregarDestino/p_Agregar Destino'))
-
-WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega6/Contacto-Entrega-6'), 'LUCIO')
-
-WebUI.delay(5)
-
-WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega6/Telefono-Entrega-6'), '987456311')
-
-WebUI.delay(5)
-
-WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega6/Direccion-Entrega-6'), 'SAN BORJA NORTE')
-
-WebUI.delay(5)
-
-WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega6/Direccion-Entrega-6'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.scrollToPosition(50, 60)
-
-WebUI.delay(5)
-
-WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega6/Producto-Entrega-6'), 'BOTELLAS DE AGUA')
-
-WebUI.click(findTestObject('Express_Chazki/AgregarDestino/p_Agregar Destino'))
-
-WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega7/Contacto-Entrega-7'), 'JUNIOR CHAVEZ')
-
-WebUI.delay(5)
-
-WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega7/Telefono-Entrega-7'), '987456311')
-
-WebUI.delay(5)
-
-WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega7/Direccion-Entrega-7'), 'FIA DATA')
-
-WebUI.delay(5)
-
-WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega7/Direccion-Entrega-7'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.scrollToPosition(50, 60)
-
-WebUI.delay(5)
-
-WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega7/Producto-Entrega-7'), 'ARDUINOS')
 
 WebUI.sendKeys(findTestObject('MercadoPago/CVV-PEDIR'), '123')
 

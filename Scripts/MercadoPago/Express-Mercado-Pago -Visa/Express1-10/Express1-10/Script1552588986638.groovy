@@ -16,9 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://mario.chazki.com/#/', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('LoginMario/LoginPage_Chazki/input_envos_emailLogin'), 'lili@gmail.com')
+WebUI.setText(findTestObject('LoginMario/LoginPage_Chazki/input_envos_emailLogin'), 'renzo@gmail.com')
 
 WebUI.setText(findTestObject('LoginMario/LoginPage_Chazki/input_Campo requerido_password'), 'tutu102')
 
@@ -26,7 +24,7 @@ WebUI.click(findTestObject('LoginMario/LoginPage_Chazki/button_Ingresar'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('Express_Chazki/span_luis chavez'), 'lili carrasco')
+WebUI.verifyElementText(findTestObject('Express_Chazki/span_luis chavez'), 'renzo chavez')
 
 WebUI.delay(5)
 
@@ -36,11 +34,11 @@ WebUI.sendKeys(findTestObject('Express_Chazki/Recojo/TelefonoRecojo'), '96325874
 
 WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject('MercadoPago/Recojo/Direccion'), 'los jardines de ')
+WebUI.sendKeys(findTestObject('Express_Chazki/Recojo/DireccionRecojo'), 'los jardines de ')
 
 WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject('MercadoPago/Recojo/Direccion'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+WebUI.sendKeys(findTestObject('Express_Chazki/Recojo/DireccionRecojo'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(10)
 
@@ -59,6 +57,8 @@ WebUI.delay(5)
 WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega0/DireccionEntrega-0'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(5)
+
+WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_No'))
 
 WebUI.delay(5)
 
@@ -84,6 +84,8 @@ WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega1/Direccion-Entrega
 
 WebUI.delay(5)
 
+WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_No'))
+
 WebUI.scrollToPosition(50, 60)
 
 WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega1/Producto-Entrega-1'), 'casaca')
@@ -107,6 +109,8 @@ WebUI.delay(5)
 WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega2/Direccion-Entrega-2'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(5)
+
+WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_No'))
 
 WebUI.scrollToPosition(50, 60)
 
@@ -134,6 +138,8 @@ WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega3/Direccion-Entrega
 
 WebUI.delay(5)
 
+WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_No'))
+
 WebUI.scrollToPosition(50, 60)
 
 WebUI.delay(5)
@@ -160,6 +166,8 @@ WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega4/Direccion-Entrega
 
 WebUI.delay(5)
 
+WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_No'))
+
 WebUI.scrollToPosition(50, 60)
 
 WebUI.delay(5)
@@ -183,6 +191,8 @@ WebUI.delay(5)
 WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega5/Direccion-Entrega-5'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 
 WebUI.delay(5)
+
+WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_No'))
 
 WebUI.scrollToPosition(50, 60)
 
@@ -208,6 +218,8 @@ WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega6/Direccion-Entrega
 
 WebUI.delay(5)
 
+WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_No'))
+
 WebUI.scrollToPosition(50, 60)
 
 WebUI.delay(5)
@@ -232,25 +244,81 @@ WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega7/Direccion-Entrega
 
 WebUI.delay(5)
 
+WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_No'))
+
 WebUI.scrollToPosition(50, 60)
 
 WebUI.delay(5)
 
 WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega7/Producto-Entrega-7'), 'ARDUINOS')
 
-WebUI.sendKeys(findTestObject('MercadoPago/CVV-PEDIR'), '123')
+WebUI.click(findTestObject('Express_Chazki/AgregarDestino/p_Agregar Destino'))
+
+WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega8/Contacto-Entrega-8'), 'MARCOS SEVILLA')
+
+WebUI.delay(5)
+
+WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega8/Telefono-Entrega-8'), '987456311')
+
+WebUI.delay(5)
+
+WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega8/Direccion-Entrega-8'), 'MONTERRICO')
+
+WebUI.delay(5)
+
+WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega8/Direccion-Entrega-8'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_No'))
+
+WebUI.scrollToPosition(50, 60)
+
+WebUI.delay(5)
+
+WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega8/Producto-Entrega-8'), 'TAGS RFID')
+
+WebUI.click(findTestObject('Express_Chazki/AgregarDestino/p_Agregar Destino'))
+
+WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega9/Contacto-Entrega-9'), 'RUBEN FARJE')
+
+WebUI.delay(5)
+
+WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega9/Telefono-Entrega-9'), '987456311')
+
+WebUI.delay(5)
+
+WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega9/Direccion-Entrega-9'), 'JOCKEY PLAZA')
+
+WebUI.delay(5)
+
+WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega9/Direccion-Entrega-9'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_No'))
+
+WebUI.scrollToPosition(50, 60)
+
+WebUI.delay(5)
+
+WebUI.sendKeys(findTestObject('Express_Chazki/Entrega/Entrega9/Producto-Entrega-9'), 'ANTENAS RFID')
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_PEDIR'))
 
 WebUI.delay(5)
 
+WebUI.takeScreenshot('C:\\Users\\Administrator\\Desktop\\CAPTURA EXPRESS\\express1-10-orden.png')
+
 WebUI.click(findTestObject('Express_Chazki/ConfirmarOrden/button_Si'))
 
-WebUI.delay(20)
+WebUI.delay(15)
 
 WebUI.click(findTestObject('VerificarPrecioyKilometraje/MIS ENVIOS'))
 
 WebUI.delay(20)
 
-WebUI.delay(5)
+WebUI.takeScreenshot('C:\\Users\\Administrator\\Desktop\\CAPTURA EXPRESS\\express1-10-envios.png')
 

@@ -18,7 +18,7 @@ WebUI.openBrowser('https://mario.chazki.com/#/', FailureHandling.STOP_ON_FAILURE
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('LoginMario/LoginPage_Chazki/input_envos_emailLogin'), 'lulu@gmail.com')
+WebUI.setText(findTestObject('LoginMario/LoginPage_Chazki/input_envos_emailLogin'), 'loloi@gmail.com')
 
 WebUI.setText(findTestObject('LoginMario/LoginPage_Chazki/input_Campo requerido_password'), 'tutu102')
 
@@ -26,7 +26,7 @@ WebUI.click(findTestObject('LoginMario/LoginPage_Chazki/button_Ingresar'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('Express_Chazki/span_luis chavez'), 'lulu carrasco')
+WebUI.verifyElementText(findTestObject('Express_Chazki/span_luis chavez'), 'lolo carrasco')
 
 WebUI.delay(5)
 
@@ -38,7 +38,7 @@ WebUI.click(findTestObject('MercadoPago/NuevaTarjeta'))
 
 WebUI.sendKeys(findTestObject('MercadoPago/DatosTarjeta/Correo'), 'loloi@gmail.com')
 
-WebUI.sendKeys(findTestObject('MercadoPago/DatosTarjeta/NumeroDeTarjeta'), '5118437884865678 ')
+WebUI.sendKeys(findTestObject('MercadoPago/DatosTarjeta/NumeroDeTarjeta'), '4009 1753 3280 6176')
 
 WebUI.sendKeys(findTestObject('MercadoPago/DatosTarjeta/CVV'), '123')
 
